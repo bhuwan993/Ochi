@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Neue Montreal';
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'founderGrotesk';
+  src: url('./assets/fonts/founderGrotesk.otf') format('woff2'),
+        url('./assets/fonts/founderGrotesk2.otf') format('woff2'),
+        url('./assets/fonts/founderGroteskCondLight.otf') format('woff2'),
+        url('./assets/fonts/founderGroteskLight.otf') format('woff2'),
+        url('./assets/fonts/founderGroteskMedium.otf') format('woff2'),
+        url('./assets/fonts/founderGroteskRegular.otf') format('woff2'),
+        url('./assets/fonts/founderGroteskSemibold.otf') format('woff2'),
+        url('./assets/fonts/founderGrotesk1.otf') format('woff2');
+
+}
+@font-face{
+  font-family: 'founderGroteskLight';
+  src : url('./assets/Fonts/founderGroteskCondLight.otf')
+}
+@font-face{
+  font-family: 'founderGroteskMedium';
+  src: url('./assets/Fonts/founderGroteskMedium.otf')
+}
+@font-face{
+  font-family: 'founderGroteskRegular';
+  src: url('./assets/Fonts/founderGroteskRegular.otf')
+}
+@font-face{
+  font-family: 'founderGroteskSemibold';
+  src:  url('./assets/fonts/founderGroteskSemibold.otf') format('woff2');
+}
+@font-face{
+  font-family: 'founderGrotesk1';
+  src: url('./assets/fonts/founderGrotesk2.otf') format('woff2');
+}
+@font-face{
+  font-family: 'founderGrotesk2';
+  src:  url('./assets/fonts/FoundersGroteskXCond-Bold.otf') format('woff2');
+}

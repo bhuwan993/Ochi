@@ -1,0 +1,31 @@
+#nav1:hover div{
+    width: 9.3vh;
+    transition: all ease-in-out 0.5s;
+    /* opacity: 0.8; */
+}
+#nav2:hover div{
+    width: 10.3vh;
+    transition: all ease-in-out 0.5s;
+    /* opacity: 0.8; */
+}
+#nav3:hover div{
+    width: 9.5vh;
+    transition: all ease-in-out 0.5s;
+    /* opacity: 0.8; */
+}
+#nav4:hover div{
+    width: 8.3vh;
+    transition: all ease-in-out 0.5s;
+    /* opacity: 0.8; */
+}
+.navContainer a:hover{
+    opacity: 0.5;
+}
+#btn:hover div{
+    width: 11.5vh;
+    transition: all ease-in-out 0.5s;
+
+}
+#btn:hover{
+    opacity: 0.5;
+}
